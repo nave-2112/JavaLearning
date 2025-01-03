@@ -1,0 +1,60 @@
+1. Add, subtract, multiply, and divide them.
+2. Find the remainder when the first number is divided by the second.
+3. Triangle Area Calculator
+	Write a program to calculate the area of a triangle using the formula, Input the base and height from the user.
+		Area=(1\2)×base×height
+4. Circle Calculations
+	Take the radius of a circle as input.Compute the circumference and area using:
+		Circumference=2𝜋𝑟
+		Area=𝜋𝑟2
+5. Simple Interest
+	Write a program to calculate simple interest, Input the principal amount, interest rate, and time.
+	Simple Interest=(Principal×Rate×Time)/100
+6. Temperature Conversion
+	Write a program to convert temperatures:
+	From Celsius to Fahrenheit: F=C×(9/5)+32
+	From Fahrenheit to Celsius: C=(F−32)×(5/9)
+7. Password Validation
+	Write a program that checks if a password is valid:
+	The password is valid if it is at least 8 characters long and contains both letters and numbers.
+8. Traffic Light System
+	Simulate a traffic light using logical operators:
+	Green means "Go".
+	Yellow means "Slow Down".
+	Red means "Stop".
+	Add a condition where the user cannot move if there’s an obstacle, regardless of the light color.
+9. Write a program to determine if a person can vote:
+	A person can vote if they are:
+	At least 18 years old and
+	A citizen of the country.
+10. Leap Year Check
+	Write a program to check if a given year is a leap year using logical operators
+ 
+String Operations
+1. Palindrome Checker
+	Write a program to check if a given string is a palindrome.
+ 
+2. Vowel and Consonant Counter
+	Take a string input and count the number of vowels and consonants in it.
+3. Word Reversal
+	Input a sentence and reverse the order of words. For example:
+		Input: Java is fun
+		Output: fun is Java
+4. Character Frequency
+	Write a program to count the frequency of each character in a given string.
+ 
+Array Operations
+1. Input an array of integers and find the largest and smallest numbers.
+2. Sort the array in ascending and descending order.
+3. Calculate the sum and average of array elements.
+4. Search for an element in the array and return its position.
+5. Second Largest Element
+	Write a program to find the second largest element in an array.
+6. Matrix Addition
+	Take two 2D arrays (matrices) as input and perform matrix addition.
+7. Array Rotation
+	Write a program to rotate an array by n positions (e.g., rotating [1, 2, 3, 4, 5] by 2 positions yields [3, 4, 5, 1, 2]).
+8. Duplicate Remover
+	Remove duplicate elements from an array and display the unique elements.
+9. Merge and Sort Arrays
+	Take two arrays as input, merge them, and sort the resulting array in ascending order.
