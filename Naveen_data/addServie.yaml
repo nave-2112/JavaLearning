@@ -1,0 +1,41 @@
+---
+swagger: "2.0"
+info:
+  version: "1.0"
+  title: "addService"
+host: "localhost:5555"
+basePath: "/rad/learning.v1.restResource:addService"
+schemes:
+- "http"
+- "https"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /add:
+    get:
+      operationId: "add_GET_1"
+      parameters:
+      - name: "num1"
+        in: "query"
+        required: true
+        type: "string"
+      - name: "num2"
+        in: "query"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "OK"
+          schema:
+            $ref: "#/definitions/add_GET_response"
+        "401":
+          description: "Access Denied"
+definitions:
+  add_GET_response:
+    required:
+    - "output"
+    properties:
+      output:
+        type: "string"

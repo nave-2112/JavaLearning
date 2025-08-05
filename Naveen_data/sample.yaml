@@ -1,0 +1,24 @@
+---
+swagger: "2.0"
+info:
+  version: "1.0"
+  title: "ffService"
+host: "DESKTOP-3829H58:5555"
+basePath: "/rad/CachingFramework.v2.restResouce:ffService"
+schemes:
+- "http"
+- "https"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /sample:
+    get:
+      operationId: "sample_GET_1"
+      parameters: []
+      responses:
+        "200":
+          description: "OK"
+        "401":
+          description: "Access Denied"
